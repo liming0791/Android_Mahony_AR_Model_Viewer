@@ -6,5 +6,9 @@
     {
         "merged": "/home/liming/android-3D-model-viewer-master/app/build/intermediates/res/merged/debug/drawable/ic_launcher2.gif",
         "source": "/home/liming/android-3D-model-viewer-master/app/src/main/res/drawable/ic_launcher2.gif"
+    },
+    {
+        "merged": "/home/liming/android-3D-model-viewer-master/app/build/intermediates/res/merged/debug/drawable/ic_model_viewer_icon.png",
+        "source": "/home/liming/android-3D-model-viewer-master/app/src/main/res/drawable/ic_model_viewer_icon.png"
     }
 ]

@@ -4,30 +4,27 @@
     api-level="24"
     density="xxxhdpi"
     format="7"
-    timestamp="25522256960215"
+    timestamp="26281720250753"
     token="1384773693917603486" >
 
     <task
         name="javac"
-        duration="120" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="42" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
-    <artifact
-        location="/home/liming/android-3D-model-viewer-master/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="25522256960215" >
+    <build timestamp="26263402119488" >
         <artifact
             location="/home/liming/android-3D-model-viewer-master/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="26281720250753" />
 
 </instant-run>

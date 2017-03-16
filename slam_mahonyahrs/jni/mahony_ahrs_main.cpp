@@ -8,6 +8,7 @@
 #include <jni.h>
 
 #include <cvd/image.h>
+#include <cvd/image_io.h>
 #include <cvd/byte.h>
 #include <cvd/utility.h>
 #include <cvd/convolution.h>
@@ -22,6 +23,7 @@ using namespace std;
 extern "C"{
 
 struct timeval tstart;
+struct timeval tbegin;
 struct timeval tend;
 
 static bool isFirstUpdate = true;
@@ -73,6 +75,7 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateIMU( JNIEnv* env, j
 
     if (isFirstUpdate) {        // if first update imu, init it
         gettimeofday(&tstart, 0);
+        gettimeofday(&tbegin, 0);
         isFirstUpdate = false;
         InitIMU(pimuval, pq);
         __android_log_print(ANDROID_LOG_INFO, "JNIMsg",
@@ -84,6 +87,22 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateIMU( JNIEnv* env, j
                 + tend.tv_usec - tstart.tv_usec)/1000000.f);        // caculate the frequency
         gettimeofday(&tstart, 0);
     }
+
+    // == test save imu data
+
+    //static FILE *imufile = fopen("/sdcard/imu_data/imu.csv","w");
+    //struct timeval tnow;
+    //gettimeofday(&tnow, 0);
+    //unsigned long timeStamp = ( (tnow.tv_sec - tbegin.tv_sec) * 1000000u + (tnow.tv_usec - tbegin.tv_usec) );
+    //fprintf(imufile, "%lu000,%f,%f,%f,%f,%f,%f\n", timeStamp,
+    //        pimuval[3], pimuval[4], pimuval[5], pimuval[0], pimuval[1], pimuval[2]);
+
+    //__android_log_print(ANDROID_LOG_INFO, "JNIMsg",
+    //                "JNI nativeUpdateVision called,"
+    //                "save imu: %lu",
+    //                timeStamp);
+
+    // == done
 
     MahonyAHRS::updateIMU(pimuval[3], pimuval[4], pimuval[5], pimuval[0], pimuval[1], pimuval[2],
             imufreq, pq[0], pq[1], pq[2], pq[3]);
@@ -135,6 +154,7 @@ std::pair< TooN::SO3<>, double> CalcSBIRotation()
     //                    "error: %f",
     //                    result_pair.second);
     return std::pair< TooN::SO3<>, double >(se3Adjust.get_rotation(), result_pair.second);
+    //return std::pair< TooN::SO3<>, double >(TooN::SO3<>(), 3000000);
 }
 
 // Update by vision
@@ -150,6 +170,24 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateVision( JNIEnv* env
     int len = env->GetArrayLength(imageArray);
     imageData.resize(CVD::ImageRef(width, height));
     env->GetByteArrayRegion(imageArray, 0, width*height, (jbyte*)imageData.data() );
+
+    // == test save image
+    //static FILE *imagefile = fopen("/sdcard/camera_images/images.bin","wb");
+    //struct timeval tnow;
+    //gettimeofday(&tnow, 0);
+    //unsigned long timeStamp = ( (tnow.tv_sec - tbegin.tv_sec) * 1000000u + (tnow.tv_usec - tbegin.tv_usec) );
+    //fwrite(&timeStamp, sizeof(unsigned long), 1, imagefile);
+    //fwrite(&width, sizeof(int), 1, imagefile);
+    //fwrite(&height, sizeof(int), 1, imagefile);
+    //fwrite(imageData.data(), sizeof(unsigned char), width*height, imagefile);
+
+    //__android_log_print(ANDROID_LOG_INFO, "JNIMsg",
+    //                "JNI nativeUpdateVision called,"
+    //                "save image: %lu",
+    //                timeStamp);
+    // == done
+
+    static ATANCamera mCamera("/sdcard/calibration/calibration.txt");
 
     if (isFirstImage) {                     // if first image, setup correction SBI
         SBI = SmallBlurryImage(imageData);

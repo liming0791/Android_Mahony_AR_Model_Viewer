@@ -1,0 +1,9 @@
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$id$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$raw$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$string$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$drawable$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$styleable$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$menu$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$layout$override.class
+CHANGED,/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$style$override.class
