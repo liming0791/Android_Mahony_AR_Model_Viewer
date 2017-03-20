@@ -2,6 +2,7 @@
  /home/liming/android-3D-model-viewer-master/slam_mahonyahrs/jni/./mahony_ahrs_main.cpp \
  /home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
  /home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream \
+ /home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
  /home/liming/android-3D-model-viewer-master/slam_mahonyahrs/jni/CVD/cvd/jni/../installfiles/cvd/image.h \
  /home/liming/android-3D-model-viewer-master/slam_mahonyahrs/jni/CVD/cvd/jni/../installfiles/cvd/image_ref.h \
  /home/liming/android-3D-model-viewer-master/slam_mahonyahrs/jni/CVD/cvd/jni/../installfiles/cvd/exceptions.h \
@@ -97,6 +98,8 @@
 /home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
 
 /home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream:
+
+/home/liming/Projects/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
 
 /home/liming/android-3D-model-viewer-master/slam_mahonyahrs/jni/CVD/cvd/jni/../installfiles/cvd/image.h:
 

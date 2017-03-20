@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/liming/android-3D-model-viewer-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="25.0.2"
-        sha1="6911122c9adceb0ce4bd8f4cc38c36ac72642c83">
-        <dex dex="/home/liming/android-3D-model-viewer-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b0b9a81d5c350999e55167373286a702889afd1b/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

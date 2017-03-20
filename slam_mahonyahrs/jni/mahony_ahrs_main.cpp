@@ -2,7 +2,8 @@
 
 #include <string.h>
 #include <iostream>     
-#include <fstream>      
+#include <fstream>
+#include <sstream>
 #include <stdlib.h>
 #include <android/log.h>
 #include <jni.h>
@@ -83,32 +84,16 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateIMU( JNIEnv* env, j
     } else {
 
         gettimeofday(&tend, 0);
-        imufreq = 1 / (((tend.tv_sec - tstart.tv_sec)*1000000u
-                + tend.tv_usec - tstart.tv_usec)/1000000.f);        // caculate the frequency
+        imufreq = 1000000u/ (((tend.tv_sec - tstart.tv_sec)*1000000u
+                + tend.tv_usec - tstart.tv_usec));        // caculate the frequency
         gettimeofday(&tstart, 0);
     }
-
-    // == test save imu data
-
-    //static FILE *imufile = fopen("/sdcard/imu_data/imu.csv","w");
-    //struct timeval tnow;
-    //gettimeofday(&tnow, 0);
-    //unsigned long timeStamp = ( (tnow.tv_sec - tbegin.tv_sec) * 1000000u + (tnow.tv_usec - tbegin.tv_usec) );
-    //fprintf(imufile, "%lu000,%f,%f,%f,%f,%f,%f\n", timeStamp,
-    //        pimuval[3], pimuval[4], pimuval[5], pimuval[0], pimuval[1], pimuval[2]);
-
-    //__android_log_print(ANDROID_LOG_INFO, "JNIMsg",
-    //                "JNI nativeUpdateVision called,"
-    //                "save imu: %lu",
-    //                timeStamp);
-
-    // == done
 
     MahonyAHRS::updateIMU(pimuval[3], pimuval[4], pimuval[5], pimuval[0], pimuval[1], pimuval[2],
             imufreq, pq[0], pq[1], pq[2], pq[3]);
 
     imuCount++;
-    if (imuCount==200) {
+    if (imuCount==500) {
         __android_log_print(ANDROID_LOG_INFO, "JNIMsg", "JNI nativeUpdateIMU called,"
                 "imufreq: %f, q : %f %f %f %f", imufreq, pq[0], pq[1], pq[2], pq[3]);
         imuCount=0;
@@ -157,6 +142,31 @@ std::pair< TooN::SO3<>, double> CalcSBIRotation()
     //return std::pair< TooN::SO3<>, double >(TooN::SO3<>(), 3000000);
 }
 
+TooN::SO3<> loadIMUExtrinsic() {
+    SE3<> res;
+    ifstream file("/sdcard/calibration/IMUExtrinsic.txt");
+
+    if (!file.is_open()) {
+        __android_log_print(ANDROID_LOG_INFO, "JNIMsg",
+                           "JNI loadIMUExtrinsic called,"
+                            "warning: open IMUExtrinsic.txt failed !");
+        return res.get_rotation();
+    }
+    std::string line;
+    std::getline(file, line);
+    std::stringstream ss(line);
+    ss >> res;
+
+    std::stringstream outlog;
+    outlog << res;
+
+    __android_log_print(ANDROID_LOG_INFO, "JNIMsg",
+                               "JNI loadIMUExtrinsic called,"
+                                "SE3: %s", outlog.str().c_str());
+
+    return res.get_rotation();
+}
+
 // Update by vision
 JNIEXPORT void JNICALL
 Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateVision( JNIEnv* env, jobject thiz,
@@ -165,27 +175,12 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateVision( JNIEnv* env
 
     if (isFirstUpdate) return;      // if has not do imu update,
                                     // return
+    static TooN::SO3<> R_ic = loadIMUExtrinsic();
 
     // get image array data
     int len = env->GetArrayLength(imageArray);
     imageData.resize(CVD::ImageRef(width, height));
     env->GetByteArrayRegion(imageArray, 0, width*height, (jbyte*)imageData.data() );
-
-    // == test save image
-    //static FILE *imagefile = fopen("/sdcard/camera_images/images.bin","wb");
-    //struct timeval tnow;
-    //gettimeofday(&tnow, 0);
-    //unsigned long timeStamp = ( (tnow.tv_sec - tbegin.tv_sec) * 1000000u + (tnow.tv_usec - tbegin.tv_usec) );
-    //fwrite(&timeStamp, sizeof(unsigned long), 1, imagefile);
-    //fwrite(&width, sizeof(int), 1, imagefile);
-    //fwrite(&height, sizeof(int), 1, imagefile);
-    //fwrite(imageData.data(), sizeof(unsigned char), width*height, imagefile);
-
-    //__android_log_print(ANDROID_LOG_INFO, "JNIMsg",
-    //                "JNI nativeUpdateVision called,"
-    //                "save image: %lu",
-    //                timeStamp);
-    // == done
 
     static ATANCamera mCamera("/sdcard/calibration/calibration.txt");
 
@@ -194,8 +189,8 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateVision( JNIEnv* env
         SBI.MakeJacs();
         MahonyAHRS::getState(state_reset);
         pose_reset = TooN::SO3<>::exp(
-                        WFromQ(TooN::makeVector(state_reset[0], -state_reset[2],
-                            -state_reset[1], -state_reset[3]))
+                        WFromQ(TooN::makeVector(state_reset[0], state_reset[1],
+                            state_reset[2], state_reset[3]))
                         );
 
         SBISize = SBI.GetSize();
@@ -216,21 +211,21 @@ Java_com_citrus_slam_MahonyAHRS_QuaternionSensor_nativeUpdateVision( JNIEnv* env
             frameCount = 0;
         }
 
-        if (diffVal < 20000) {              // if SSD small , do correction
+        if (diffVal < 50000) {              // if SSD small , do correction
             float state_now[7];
             MahonyAHRS::getState(state_now);
             std::pair< TooN::SO3<>, double > rotation_pair = CalcSBIRotation();       // rotation from SBI to SI
 
-            if (rotation_pair.second < 1500) {
+            if (rotation_pair.second < 15000) {
                 TooN::SO3<> pose_correction =
-                        pose_reset * rotation_pair.first.inverse() ;        // corrected pose
+                        pose_reset * R_ic.inverse() * rotation_pair.first.inverse() * R_ic ;        // corrected pose
                 TooN::Vector<4> state_correction =
                         QFromW(pose_correction.ln());           // convert to Quaternion
 
                 state_now[0] = state_correction[0];
-                state_now[1] = -state_correction[2];
-                state_now[2] = -state_correction[1];
-                state_now[3] = -state_correction[3];
+                state_now[1] = state_correction[1];
+                state_now[2] = state_correction[2];
+                state_now[3] = state_correction[3];
                 state_now[4] = 0;
                 state_now[5] = 0;
                 state_now[6] = 0;
