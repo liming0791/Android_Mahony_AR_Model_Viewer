@@ -10,7 +10,7 @@ ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
     LOCAL_ARM_NEON  := true
 endif
 
-LOCAL_MODULE    := libpng
+LOCAL_MODULE    := png
 LOCAL_SRC_FILES :=\
 	png.c \
 	pngerror.c \

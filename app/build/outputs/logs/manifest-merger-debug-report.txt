@@ -23,7 +23,7 @@ MERGED from [android-3D-model-viewer-master:slam_mahonyahrs:unspecified] /home/l
 		INJECTED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:8:9-34
+		ADDED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:8:9-35
 		INJECTED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/liming/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 21
     buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "org.andresoviedo.dddmodel"
-        minSdkVersion 15
-        targetSdkVersion 19
+        minSdkVersion 21
+        targetSdkVersion 21
     }
 
     buildTypes {

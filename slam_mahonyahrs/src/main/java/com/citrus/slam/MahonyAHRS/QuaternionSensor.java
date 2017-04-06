@@ -98,7 +98,9 @@ public class QuaternionSensor implements SensorEventListener {
      * @param height The height of the image data
      */
     public void visionCorrect(byte[] imageArray, int width, int height) {
-        nativeUpdateVision(imageArray, width, height);
+        //nativeUpdateVisionSBI(imageArray, width, height);
+        //nativeUpdateVision2D2D(imageArray, width, height);
+        nativeUpdateVision3D2D(imageArray, width, height);
     }
 
     private void updateOrentation() {
@@ -144,5 +146,8 @@ public class QuaternionSensor implements SensorEventListener {
     private native void nativeUpdateIMU(float[] IMUval, float[] q);
 
     private native void nativeResetVision();
-    private native void nativeUpdateVision(byte[] imageArray, int width, int height);
+    private native void nativeUpdateVision3D2D(byte[] imageArray, int width, int height);
+    private native void nativeUpdateVision2D2D(byte[] imageArray, int width, int height);
+    private native void nativeUpdateVisionSBI(byte[] imageArray, int width, int height);
+
 }

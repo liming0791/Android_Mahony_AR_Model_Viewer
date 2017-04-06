@@ -32,7 +32,7 @@
 
 #include <TooN/TooN.h>
 #include <TooN/gaussian_elimination.h>
-#include <cmath>
+#include <math.h>
 #include <functional>
 #include <utility>
 
@@ -332,7 +332,8 @@ namespace TooN {
 	inline Matrix<R, C, P> exp( const Matrix<R,C,P,B> & m ){
 		using std::max;
 		SizeMismatch<R, C>::test(m.num_rows(), m.num_cols());
-		const P l = log2(norm_inf(m));
+		//const P l = log2(norm_inf(m));
+		const P l = log(norm_inf(m)) / log(2);
 		const int s = max(0,(int)ceil(l));
 		Matrix<R,C,P> result = Internal::exp_taylor(m/(1<<s));
 		for(int i = 0; i < s; ++i)

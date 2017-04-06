@@ -13,21 +13,14 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="jni" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="mylog" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f41137fd-b132-4a00-b61b-c0dab5b441d2" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$drawable$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$id$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$layout$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$menu$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$raw$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$string$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$style$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/dddmodel/R$styleable$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/andresoviedo/app/model3D/controller/SensorController$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -40,32 +33,397 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_slam_mahonyahrs_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/slam_mahonyahrs/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/slam_mahonyahrs/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/slam_mahonyahrs/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/slam_mahonyahrs/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraFrame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager$FrameListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager$FrameListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraPreview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/CameraPreview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/PersistentSensorEvent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/PersistentSensorEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/VideoSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/camera/VideoSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/SensorController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/SensorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchScreen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/controller/TouchScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/entities/Camera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/entities/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/BoundingBox.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/BoundingBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/LoaderTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/LoaderTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3D.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV0.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/model/Object3DV6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/SceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/SceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/SceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/SceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/services/WavefrontLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/GLUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/GLUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/MenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelRenderer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/RowItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/model3D/view/RowItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/math/Math3DUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/math/Math3DUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/view/TextActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/app/util/view/TextActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/org/andresoviedo/dddmodel/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/jni/armeabi-v7a/libMahonyAHRS.so" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/jni/armeabi-v7a/libMahonyAHRS.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/util/CalibrationHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/citrus/slam/util/CalibrationHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/slam_mahonyahrs/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraFrame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager$FrameListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager$FrameListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraPreview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/CameraPreview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/PersistentSensorEvent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/PersistentSensorEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/VideoSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/camera/VideoSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/SensorController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/SensorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchScreen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/controller/TouchScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/entities/Camera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/entities/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/BoundingBox.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/BoundingBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/LoaderTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/LoaderTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3D.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV0.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/model/Object3DV6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/SceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/SceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/SceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/SceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/services/WavefrontLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/GLUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/GLUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/MenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelRenderer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/RowItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/model3D/view/RowItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/math/Math3DUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/math/Math3DUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/view/TextActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/app/util/view/TextActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/org/andresoviedo/dddmodel/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/util/CalibrationHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/citrus/slam/util/CalibrationHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/example/slam_mahonyahrs/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--416935260/com/example/slam_mahonyahrs/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/util/CalibrationHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/citrus/slam/util/CalibrationHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/slam_mahonyahrs/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraFrame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager$FrameListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager$FrameListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraPreview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/CameraPreview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/PersistentSensorEvent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/PersistentSensorEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/VideoSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/camera/VideoSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/SensorController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/SensorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchScreen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/controller/TouchScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/entities/Camera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/entities/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/BoundingBox.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/BoundingBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/LoaderTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/LoaderTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3D.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV0.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/model/Object3DV6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/SceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/SceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/SceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/SceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/services/WavefrontLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/GLUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/GLUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/MenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelRenderer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/RowItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/model3D/view/RowItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/math/Math3DUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/math/Math3DUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/view/TextActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/app/util/view/TextActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/andresoviedo/dddmodel/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/citrus/slam/MahonyAHRS/QuaternionEventListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/citrus/slam/MahonyAHRS/QuaternionSensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/example/slam_mahonyahrs/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/BoundingBox.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/BoundingBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/LoaderTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/LoaderTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3D.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV0.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV0.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/model/Object3DV6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/CustomListViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/DemoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity$Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/MenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelRenderer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/ModelSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/RowItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/org/andresoviedo/app/model3D/view/RowItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/citrus/slam/util/CalibrationHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/citrus/slam/util/CalibrationHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/org/andresoviedo/app/model3D/entities/Camera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/org/andresoviedo/app/model3D/entities/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/GLUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/GLUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider$OnVisibilityChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/org/andresoviedo/app/model3D/util/SystemUiHiderHoneycomb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/org/andresoviedo/app/util/Utils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/org/andresoviedo/app/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraFrame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager$FrameListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager$FrameListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager$PreviewDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraPreview.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/CameraPreview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/PersistentSensorEvent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/PersistentSensorEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/VideoSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/camera/VideoSource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/SensorController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/SensorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController$ScaleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchScreen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/model3D/controller/TouchScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/util/math/Math3DUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/org/andresoviedo/app/util/math/Math3DUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/andresoviedo/dddmodel/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/model3D/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/util/view/TextActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/org/andresoviedo/app/util/view/TextActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/ExampleSceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/ExampleSceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/SceneLoader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/SceneLoader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/SceneLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/SceneLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$FaceMaterials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Faces.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Material.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Materials.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$ModelDimensions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader$Tuple3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/org/andresoviedo/app/model3D/services/WavefrontLoader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libMahonyAHRS.so" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libMahonyAHRS.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/libs/armeabi-v7a/libMahonyAHRS.so" afterPath="$PROJECT_DIR$/slam_mahonyahrs/libs/armeabi-v7a/libMahonyAHRS.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/libMahonyAHRS.so" afterPath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/libMahonyAHRS.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/MahonyAHRS/MahonyAHRS.o" afterPath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/MahonyAHRS/MahonyAHRS.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/mahony_ahrs_main.o" afterPath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/mahony_ahrs_main.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-3D-model-viewer-master.iml" afterPath="$PROJECT_DIR$/android-3D-model-viewer-master.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/android-3D-model-viewer-master/slam_mahonyahrs/unspecified/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/build.gradle" afterPath="$PROJECT_DIR$/slam_mahonyahrs/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk" afterPath="$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/jni/Application.mk" afterPath="$PROJECT_DIR$/slam_mahonyahrs/jni/Application.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/include/TooN/helpers.h" afterPath="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/include/TooN/helpers.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/libpng/jni/Android.mk" afterPath="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/libpng/jni/Android.mk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp" afterPath="$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/mahony_ahrs_main.o.d" afterPath="$PROJECT_DIR$/slam_mahonyahrs/obj/local/armeabi-v7a/objs/MahonyAHRS/mahony_ahrs_main.o.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/slam_mahonyahrs.iml" afterPath="$PROJECT_DIR$/slam_mahonyahrs/slam_mahonyahrs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java" afterPath="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java" />
     </list>
     <ignored path="android-3D-model-viewer-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,30 +451,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SensorController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SensorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/SensorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73039216">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="e#1916#1917#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/TouchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mahony_ahrs_main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuaternionSensor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mahony_ahrs_main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.641026">
-              <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+            <state vertical-scroll-proportion="5.123967">
+              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="VisionTracker.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/VisionTracker.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3137255">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisionTracker.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/VisionTracker.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.803922">
+              <caret line="172" column="59" selection-start-line="172" selection-start-column="59" selection-end-line="172" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFrame.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/ImageFrame.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFrame.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/ImageFrame.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedirectPrintf.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/RedirectPrintf.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mapping.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Mapping.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2105,7 +2539,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5948908020532" />
+        <entry key="$PROJECT_DIR$" value="5954670843991" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2466,24 +2900,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/app/jni/mahony_ahrs_main.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/citrus/slam/QuaternionSensor.java" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/MahonyAHRS/QuaternionEventListener.java" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/MahonyAHRS/QuaternionSensor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraFrame.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/VideoSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/PersistentSensorEvent.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/services/SceneLoader.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraPreview.java" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/build.gradle" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MahonyAHRS.h" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MahonyAHRS.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelSurfaceView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/TouchController.java" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage/SmallBlurryImage.h" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage/SmallBlurryImage.cc" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage/ATANCamera.h" />
@@ -2491,27 +2908,76 @@
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage/Android.mk" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage/jni/Android.mk" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/SmallBlurryImage.h" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/ATANCamera.h" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionEventListener.java" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/ATANCamera.cc" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/util/CalibrationHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelRenderer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/entities/Camera.java" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/jni/Android.mk" />
         <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/SmallBlurryImage.cc" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/SensorController.java" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/libpng/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/opencv3/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/opencv3/jni/OpenCV-armeabi-v7a.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/include/TooN/helpers.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/installfiles/cvd/config.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/Application.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/VisionCorrection.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/Pose2D2DMethod.cpp" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/Pose3D2DMethod.cpp" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/SBIMethod.cpp" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/include/cs.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/utils.cpp" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/LogStream.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/RedirectPrintf.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/CameraIntrinsic.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Converter.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/CameraDevice.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Mapping.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Viewer.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/ImageFrame.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/ImageFrame.cc" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/TouchController.java" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/VisionTracker.h" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/VisionTracker.cc" />
+        <option value="$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="18" />
+    <option name="y" value="-3" />
     <option name="width" value="1871" />
-    <option name="height" value="1062" />
+    <option name="height" value="1083" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintGradleCompatible</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2538,17 +3004,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-3D-model-viewer-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2579,7 +3034,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2608,6 +3062,124 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="slam_mahonyahrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_mahonyahrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_mahonyahrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_mahonyahrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MahonyAHRS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_mahonyahrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2656,7 +3228,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2682,11 +3258,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxhdpi" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model3D" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2712,12 +3292,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model3D" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TouchController.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2742,21 +3334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-3D-model-viewer-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2764,20 +3342,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="model3D" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="android-3D-model-viewer-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2789,27 +3371,29 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="ce05160534b8b72404" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="slam_mahonyahrs" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/slam_mahonyahrs/src/main/java" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/android-camera-imu-recoder" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD" />
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.citrus.slam.MahonyAHRS" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD" />
-      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SmallBlurryImage" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.andresoviedo.app.camera" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/jni" />
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse" />
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/jni" />
+      <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM" />
       <recent name="$PROJECT_DIR$/slam_mahonyahrs/jni/CVD" />
-      <recent name="$PROJECT_DIR$/slam_mahonyahrs" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -3178,16 +3762,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="18" width="1871" height="1062" extended-state="6" />
+    <frame x="49" y="-3" width="1871" height="1083" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47991544" sideWeight="0.83655703" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4789189" sideWeight="0.83655703" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2762605" sideWeight="0.50378376" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6416479" sideWeight="0.23210831" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10993657" sideWeight="0.7678917" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7906977" sideWeight="0.7678917" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123589166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.49613154" order="7" side_tool="false" content_ui="tabs" />
@@ -3195,7 +3779,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1738655" sideWeight="0.4962162" order="0" side_tool="false" content_ui="combo" x="913" y="1072" width="481" height="876" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4962162" order="0" side_tool="false" content_ui="combo" x="913" y="1072" width="481" height="876" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24931657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3263,223 +3847,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MadgwickAHRS.h">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/Android.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MadgwickAHRS.cpp">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/installfiles/cvd/config.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.24530663">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/installfiles/cvd_src/thread/runnable_batch.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6758448">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/jni/Android.mk">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5172415">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/VideoSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49140048">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-19/android/opengl/GLSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.332705">
-          <caret line="707" column="13" selection-start-line="707" selection-start-column="13" selection-end-line="707" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/PersistentSensorEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026263952">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/model/Object3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18786128">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_item.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_demo.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27079305">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/models/ToyPlane.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/model/Object3DBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="483" column="0" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/model/Object3DImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035842296">
-          <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/DemoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/MenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.013850415">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraPreview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/Application.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/Android.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/jni/Android.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2657005">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48109967">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34364262">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MahonyAHRS.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0673075">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MahonyAHRS.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5693431">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/services/SceneLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.060402684">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6188467">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.32941177">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3490,89 +3889,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4199475">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/ATANCamera.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84411764">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/SmallBlurryImage.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44117647">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/TouchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3725262">
-          <caret line="169" column="45" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116414435">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3942307">
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/entities/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64721143">
-          <caret line="460" column="24" selection-start-line="460" selection-start-column="24" selection-end-line="460" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/Application.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionEventListener.java">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/MahonyAHRS/MahonyAHRS.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/util/CalibrationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/libpng/jni/arm/arm_init.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.4505632">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/view/ModelRenderer.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6109091">
-          <caret line="204" column="24" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/Pose2D2DMethod.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.196078">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/Pose3D2DMethod.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.941176">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3584,52 +3949,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/cvd/jni/Android.mk">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/VisionCorrection.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8260325">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/SBIMethod.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57571965">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023529412">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/include/cs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6511319">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/include/g2o/solvers/csparse/csparse_helper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29063362">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/include/g2o/solvers/csparse/g2o_csparse_extension_api.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.16804408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/include/g2o/solvers/csparse/linear_solver_csparse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3443526">
+          <caret line="170" column="65" selection-start-line="170" selection-start-column="48" selection-end-line="170" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/include/g2o/solvers/csparse/g2o_csparse_api.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/include/g2o/config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63529414">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/g2o/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24665856">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/CSparse/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5176471">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TooN/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/camera/CameraManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/LogStream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.45098">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Converter.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78431374">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/CameraIntrinsic.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78431374">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/CameraDevice.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78431374">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/MedianFilter.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Timer.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Viewer.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78431374">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/SmallBlurryImage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5294118">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/SmallBlurryImage.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="61.47059">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        <state vertical-scroll-proportion="-6.27451">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/SBI/ATANCamera.cc">
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/VisionCorrection/utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.016058">
-          <caret line="304" column="26" selection-start-line="304" selection-start-column="26" selection-end-line="304" selection-end-column="26" />
+        <state vertical-scroll-proportion="-25.294117">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/SensorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/TouchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57930106">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/ImageFrame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/ImageFrame.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/RedirectPrintf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/Mapping.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/src/main/java/com/citrus/slam/MahonyAHRS/QuaternionSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/include/VisionTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3137255">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/CVD/TinySLAM/src/VisionTracker.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.803922">
+          <caret line="172" column="59" selection-start-line="172" selection-start-column="59" selection-end-line="172" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slam_mahonyahrs/jni/mahony_ahrs_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.641026">
-          <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/andresoviedo/app/model3D/controller/SensorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73039216">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state vertical-scroll-proportion="5.123967">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding />
         </state>
       </provider>
